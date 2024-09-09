@@ -1,3 +1,4 @@
+#해답추가: YCbCr 채널 활용, 컬러스페이스 변경
 import cv2
 
 # 이미지 로드
@@ -13,3 +14,5 @@ adjusted = cv2.convertScaleAbs(denoised, alpha=alpha, beta=beta)
 
 # 처리된 이미지 저장
 cv2.imwrite('mission_005.jpg', adjusted)
+
+#히스토그램
